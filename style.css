@@ -1,0 +1,47 @@
+body {
+  background: lightblue;
+  color: black;
+  padding: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.box {
+  height: 1275px;
+  width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  background: white !important;
+  border-radius: 15px!important;
+  padding: 5px 25px;
+  text-align: left !important;
+}
+
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+input[type="radio"]:checked {
+  accent-color: lightblue;
+}
+
+#footer {
+  color: white;
+  text-align: left;
+}
+
+
+#button {
+ position: relative;
+ bottom: 40px;
+}
+
+input:hover[type="submit"] {
+			background: lightblue;
+      border: 1px grey solid;
+      border-radius: 5px;
+}
