@@ -1,7 +1,7 @@
 body {
   background: lightblue;
   color: black;
-  padding: 30px;
+  padding: 60px;
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
@@ -9,8 +9,8 @@ body {
 }
 
 .box {
-  height: 1275px;
-  width: 650px;
+  height: 1325px;
+  width: 500px;
   margin-right: auto;
   margin-left: auto;
   background: white !important;
@@ -21,7 +21,7 @@ body {
 
 
 h1 {
-  text-align: center;
+  text-align: center !important;
   color: white;
 }
 
@@ -36,12 +36,11 @@ input[type="radio"]:checked {
 
 
 #button {
- position: relative;
- bottom: 40px;
+ text-align: center;
 }
 
 input:hover[type="submit"] {
 			background: lightblue;
       border: 1px grey solid;
-      border-radius: 5px;
+      border-radius: 2px;
 }
