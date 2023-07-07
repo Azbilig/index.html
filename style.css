@@ -1,7 +1,7 @@
 body {
   background: lightblue;
   color: black;
-  padding: 60px;
+  padding: auto;
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
@@ -9,8 +9,8 @@ body {
 }
 
 .box {
-  height: 1325px;
-  width: 500px;
+  height: auto;
+  width: auto;
   margin-right: auto;
   margin-left: auto;
   background: white !important;
